@@ -1,16 +1,11 @@
-# Problems - Mastermind
+# Mastermind 1
 
-* Modify `mastermind.py` to solve the problem as stated in the topic content.
-* You can run the program using the instructions in *To Run* below.
-* You can test technical correctness by running the unit tests as in the section *To Test* below.
+Mastermind is a game where the player has to guess a randomly generated 4 digit code.
+The game tells the player how many digits in their guess are in the right place,
+and how many exist in the code but are in the wrong position.
 
-### To Run
+### To use
 
-* `python3 mastermind.py`
-* follow the input prompts to get the desired output
-
-### To Test
-
-* To run all the unittests: `python3 -m unittest tests/test_main.py`
-* To run a specific step's unittest, e.g step *1*: `python3 -m unittest tests.test_main.MyTestCase.test_step1`
-* _Note_: at the minimum, these (*unedited*) tests must succeed before you may submit the solution for review.
+- Download the repo and run python3 mastermind.py
+- Enter a 4 digit guess that is only made up of digits between 1 and 8 (both inclusive).
+- Play until you run out of turns or you guess the code correctly
