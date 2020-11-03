@@ -1,16 +1,20 @@
-# Problem - Toy Robot
+# Toy Robot 4
 
-* Modify `robot.py` to solve the problem as stated in the topic content.
-* You can run the program using the instructions in *To Run* below.
-* You can test technical correctness by running the unit tests as in the section *To Test* below.
+In this iteration, the toy robot can navigate a world with obstacles and can use turtle graphics.
 
-### To Run
+### To use
 
-* `python3 robot.py`
-* follow the input prompts to get the desired output
-
-### To Test
-
-* To run all the unittests: `python3 -m unittest tests/test_main.py`
-* To run a specific step's unittest, e.g step *1*: `python3 -m unittest tests.test_main.MyTestCase.test_step1`
-* _Note_: at the minimum, these (*unedited*) tests must succeed before you may submit the solution for review.
+- Download the repo and run python3 robot.py with one of these flags:
+  - turtle to use text graphics
+  - text to use the console only
+- Name the robot.
+- To move the robot, give it a command,
+- forward X will move it forward by X steps.
+- back X will move it back by X steps.
+- left will have it turn left.
+- right will have it turn right.
+- sprint X will make it move forward by X, X-1, X-2, until X=0.
+- replay X will replay the last X commands (excluding replay, help, off).
+- replay M-N will replay from the Mth command to the Nth command. M > N
+- replay will replay all previous commands.
+- off will turn the robot off.
