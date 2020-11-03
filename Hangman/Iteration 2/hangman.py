@@ -8,7 +8,7 @@ def read_file(file_name):
     word_list = list()
 
     for word in file:
-        word_list.append(word.rstrip())
+        word_list.append(word.strip())
     file.close() #closing file to get rid of tracealloc error
     return word_list
 
@@ -18,7 +18,7 @@ def select_random_word(words):
 
     random_index = random.randint(0, len(words)-1)
     word = words[random_index]
-    return word
+    return word.strip()
 
 
 def select_random_letter_from(word):

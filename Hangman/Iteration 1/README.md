@@ -1,17 +1,9 @@
-# Problems - Hangman
+# Hangman 1
 
-* Modify `hangman.py` to solve the problem as stated in {{%content-link%}}.
-* Use the `short_words.txt` file for the list of words to select from.
-* You can run the program using the instructions in *To Run* below.
-* You can test technical correctness by running the unit tests as in the section *To Test* below.
+Iteration 1 was used to teach us the basics of python programming. It is  simple recreation of the hangman game.
 
-### To Run
+# To use:
 
-* `python3 hangman.py`
-* follow the input prompts to play the game
+Download the repo and run python3 hangman.py. Ensure that the short_words.txt file is in the same directory as the hangman.py file.
 
-### To Test
-
-* To run all the unittests: `python3 -m unittest tests/test_main.py`
-* To run a specific step's unittest, e.g step *1*: `python3 -m unittest tests.test_main.MyTestCase.test_step1`
-* _Note_: at the minimum, these (*unedited*) tests must succeed before you may submit the solution for review.
+When prompted, input your guess for the missing letter.
