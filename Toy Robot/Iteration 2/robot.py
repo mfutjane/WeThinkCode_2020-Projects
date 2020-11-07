@@ -147,7 +147,12 @@ class RobotMove():
     
         print("""I can understand these commands:
 OFF  - Shut down robot
-HELP - provide information about commands""")
+HELP - provide information about commands
+FORWARD X - Move the robot X steps forward.
+BACK X - Move the robot X steps backward.
+LEFT - Turn the robot 90 degrees left.
+RIGHT - Turn the robot 90 degrees right.
+SPRINT X - Move the robot forward X steps, decrease X and move forward X steps again until X=0.""")
 
     def get_command(self):
         """ Prompt the user for a command and return it as a list. """
